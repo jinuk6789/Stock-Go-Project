@@ -6,7 +6,7 @@ The user manipulates the retrieved information and creates a local host server t
 
 ## Specifications
 
- 1. Use the Yahoo Finance API, (https://query1.finance.yahoo.com/v10/finance/quoteSummary/(?)?modules=summaryDetail%2CsummaryProfile) - Change the stock symbol do the user-desired company stock symbol at where (?) is located within the URL.
+ 1. Use the Yahoo Finance API, (https://query1.finance.yahoo.com/v10/finance/quoteSummary/(?)?modules=summaryDetail%2CsummaryProfile) - Change the stock symbol to the user-desired company stock symbol at where (?) is located within the URL.
  
  2. Five information that are included in type Stock struct in Go Lang are Name, Symbol, Price, Capacity, and Location of the company.
  
